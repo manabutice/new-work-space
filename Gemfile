@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.6.8'
+#ruby '2.6.8'
 
 gem 'rails', '~> 5.2.3'
 gem 'rails-i18n'
@@ -39,9 +39,9 @@ group :test do
   gem 'chromedriver-helper'
 end
 
-group :production do
-  gem 'pg', '0.20.0'
-end
+#group :production do
+  #gem 'pg', '0.20.0'
+#end
 
 # # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 # gem  'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]1
